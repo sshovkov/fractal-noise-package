@@ -2,7 +2,7 @@ import numpy as np
 from perlin_noise import PerlinNoise
 
 
-def fractal_noise(width, height, scale, octaves) -> np.array:
+def generate_fractal_noise(width, height, scale, octaves) -> np.array:
     """Generate Fractal Noise using the Perlin Noise algorithm."""
 
     # Input validation

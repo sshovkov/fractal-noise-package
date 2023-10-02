@@ -11,7 +11,7 @@ A Python implementation for Fractal Noise. Generates intricate fractal noise pat
 ## Examples
 
 ```python
-from fractal_noise import fractal_noise
+from fractal_noise import get_fractal_noise
 import matplotlib.pyplot as plt
 
 width, height = 512, 512
@@ -19,7 +19,7 @@ scale = 0.1
 octaves = [0, 1, 2, 3, 4, 5]
 
 # Generate fractal noise
-noise = fractal_noise(width, height, scale, octaves)
+noise = get_fractal_noise(width, height, scale, octaves)
 
 # Display
 plt.imshow(noise, cmap="gray")
