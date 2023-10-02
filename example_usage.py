@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from fractal_noise.fractal_noise import fractal_noise
+from fractal_noise import fractal_noise
 
 # Generate Fractal Noise
 width = 100
